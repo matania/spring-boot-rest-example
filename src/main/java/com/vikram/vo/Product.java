@@ -1,4 +1,4 @@
-package com.javatpoint;
+package com.vikram.vo;
 
 public class Product {
 	private int id;

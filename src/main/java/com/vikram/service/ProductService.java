@@ -1,8 +1,10 @@
-package com.javatpoint;
+package com.vikram.service;
 
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.stereotype.Service;
+
+import com.vikram.vo.Product;
 
 @Service
 public class ProductService implements IProductService {

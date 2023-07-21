@@ -1,4 +1,4 @@
-package com.javatpoint;
+package com.vikram.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,6 +16,6 @@ public class SwaggerConfig {
 	@Bean
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2).select().paths(PathSelectors.ant("/**"))
-				.apis(RequestHandlerSelectors.basePackage("com.javatpoint")).build();
+				.apis(RequestHandlerSelectors.basePackage("com.vikram")).build();
 	}
 }

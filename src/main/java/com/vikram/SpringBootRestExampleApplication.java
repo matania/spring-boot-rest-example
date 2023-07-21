@@ -1,4 +1,4 @@
-package com.javatpoint;
+package com.vikram;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
